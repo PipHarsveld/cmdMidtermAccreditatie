@@ -1,5 +1,3 @@
-# cmdMidtermAccreditatie
-
 # CMD Midterm accreditatie 
 
 ## Debrief
