@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --lettertype: "Open Sans", Arial, sans-serif;
+
+  --lettertype-kleur1: #000000;
+  --lettertype-kleur2: #ffffff;
+
+  --hoofdkleur1: #fff021;
+  --hoofdkleur2: #000000;
+  --hoofdkleur3: #ffffff;
+
+  --subkleur1: #f0ebf0;
+  --subkleur2: #faf0d7;
+  --subkleur3: #e0f5df;
+}
+
+/*******************/
+/* ALGEMENE OPMAAK */
+/*******************/
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a {
+  font-family: var(--lettertype);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+img {
+  width: 2rem;
+  height: auto;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*******/
+/* NAV */
+/*******/
+nav {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  float: right;
+  position: sticky;
+  height: 100vh;
+  background-color: var(--hoofdkleur1);
+  top: 0;
+}
+
+nav ol li {
+  display: block;
+  text-align: right;
+}
+
+nav ol li ol {
+  display: none;
+}
+
+.test:hover .yeh {
+  color: hotpink;
+}
