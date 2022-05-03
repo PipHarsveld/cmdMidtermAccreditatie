@@ -54,9 +54,6 @@ ul li {
 /*******/
 nav {
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   float: right;
   position: sticky;
   height: 100vh;
@@ -64,15 +61,23 @@ nav {
   top: 0;
 }
 
+nav ol {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+}
+
 nav ol li {
   display: block;
   text-align: right;
 }
 
-nav ol li ol {
-  display: none;
+nav ol li a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.test:hover .yeh {
-  color: hotpink;
+nav ol li ol {
+  display: none;
 }
