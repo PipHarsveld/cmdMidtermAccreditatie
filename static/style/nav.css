@@ -81,22 +81,22 @@ nav > ol > li > ol {
 
 /* Positie van de uitgeklapte subkopjes */
 nav > ol > li:nth-of-type(3) > ol {
-  top: 12.2rem;
+  top: 26.2vh;
   right: 10rem;
 }
 
 nav > ol > li:nth-of-type(4) > ol {
-  top: 19.6rem;
+  top: 42.1vh;
   right: 10rem;
 }
 
 nav > ol > li:nth-of-type(5) > ol {
-  top: 27.05rem;
+  top: 58vh;
   right: 10rem;
 }
 
 nav > ol > li:nth-of-type(6) > ol {
-  top: 33.15rem;
+  top: 71.1vh;
   right: 10rem;
 }
 
