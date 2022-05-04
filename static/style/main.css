@@ -49,35 +49,6 @@ ul li {
   padding: 0;
 }
 
-/*******/
-/* NAV */
-/*******/
-nav {
-  padding: 0;
-  float: right;
-  position: sticky;
-  height: 100vh;
-  background-color: var(--hoofdkleur1);
-  top: 0;
-}
-
-nav ol {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-around;
-}
-
-nav ol li {
-  display: block;
-  text-align: right;
-}
-
-nav ol li a {
-  text-decoration: none;
-  color: inherit;
-}
-
-nav ol li ol {
-  display: none;
+main {
+  margin-right: 10rem;
 }
