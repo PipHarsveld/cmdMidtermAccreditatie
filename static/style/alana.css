@@ -1,0 +1,5 @@
+button {
+  flex-grow: 4;
+  background-color: var(--hoofdkleur1);
+  padding: 1em 2em;
+}
