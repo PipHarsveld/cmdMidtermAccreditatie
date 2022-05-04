@@ -12,7 +12,7 @@ nav {
   margin-left: 2rem;
 }
 
-nav ol {
+nav > ol {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -20,7 +20,7 @@ nav ol {
   max-width: 10rem;
 }
 
-nav ol li {
+nav > ol > li {
   display: flex;
   text-align: center;
   height: auto;
@@ -30,20 +30,37 @@ nav ol li {
   flex-direction: column;
 }
 
-nav ol li::after {
+/* Lijn tussen menu items */
+nav > ol > li::after {
   content: "";
   width: 3rem;
-  margin: auto;
-  border-top: var(--hoofdkleur2) 1px solid;
+  border-bottom: var(--hoofdkleur2) 1px solid;
 }
 
-nav ol li:first-of-type {
-  border-top: none;
+nav > ol > li:last-of-type::after {
+  border-bottom: none;
 }
 
-nav ol li:hover {
+nav > ol > li:hover {
   background-color: var(--hoofdkleur2);
   color: var(--lettertype-kleur2);
+}
+
+/* Toon subkopjes bij hoveren */
+nav > ol > li:nth-of-type(3):hover .menuItems1 {
+  display: block;
+}
+
+nav > ol > li:nth-of-type(4):hover .menuItems2 {
+  display: block;
+}
+
+nav > ol > li:nth-of-type(5):hover .menuItems3 {
+  display: block;
+}
+
+nav > ol > li:nth-of-type(6):hover .menuItems4 {
+  display: block;
 }
 
 nav ol li a {
@@ -51,6 +68,42 @@ nav ol li a {
   color: inherit;
 }
 
-nav ol li ol {
+nav > ol > li > ol {
   display: none;
+  position: absolute;
+  background-color: var(--hoofdkleur2);
+  color: var(--lettertype-kleur2);
+  height: fit-content;
+  width: 20rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+/* Positie van de uitgeklapte subkopjes */
+nav > ol > li:nth-of-type(3) > ol {
+  top: 12.2rem;
+  right: 10rem;
+}
+
+nav > ol > li:nth-of-type(4) > ol {
+  top: 19.6rem;
+  right: 10rem;
+}
+
+nav > ol > li:nth-of-type(5) > ol {
+  top: 27.05rem;
+  right: 10rem;
+}
+
+nav > ol > li:nth-of-type(6) > ol {
+  top: 33.15rem;
+  right: 10rem;
+}
+
+nav > ol > li > ol > li {
+  padding: 0.4rem;
+}
+
+nav > ol > li > ol > li:hover {
+  color: var(--hoofdkleur1);
 }
