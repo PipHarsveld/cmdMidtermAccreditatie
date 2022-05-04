@@ -24,6 +24,11 @@
 /*******************/
 /* ALGEMENE OPMAAK */
 /*******************/
+main {
+  margin-right: 10rem;
+  margin-left: 2vw;
+}
+
 h1,
 h2,
 h3,
@@ -38,17 +43,23 @@ h1 {
   font-size: 2rem;
 }
 
-img {
-  width: 2rem;
-  height: auto;
+h2 {
+  font-size: 5.63rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  max-width: 60vw;
+  margin-bottom: 1rem;
 }
 
 li {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-main {
-  margin-right: 10rem;
 }
