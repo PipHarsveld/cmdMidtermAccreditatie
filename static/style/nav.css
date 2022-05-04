@@ -1,0 +1,56 @@
+/*******/
+/* NAV */
+/*******/
+nav {
+  padding: 0;
+  float: right;
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  background-color: var(--hoofdkleur1);
+  top: 0;
+  margin-left: 2rem;
+}
+
+nav ol {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  max-width: 10rem;
+}
+
+nav ol li {
+  display: flex;
+  text-align: center;
+  height: auto;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav ol li::after {
+  content: "";
+  width: 3rem;
+  margin: auto;
+  border-top: var(--hoofdkleur2) 1px solid;
+}
+
+nav ol li:first-of-type {
+  border-top: none;
+}
+
+nav ol li:hover {
+  background-color: var(--hoofdkleur2);
+  color: var(--lettertype-kleur2);
+}
+
+nav ol li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ol li ol {
+  display: none;
+}
