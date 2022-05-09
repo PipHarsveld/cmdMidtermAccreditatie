@@ -64,119 +64,8 @@ li {
   padding: 0;
 }
 
-/*******/
-/* NAV */
-/*******/
-nav {
-  padding: 0;
-  float: right;
-  position: fixed;
-  right: 0;
-  height: 100vh;
-  background-color: var(--hoofdkleur1);
-  top: 0;
-  margin-left: 2rem;
-}
+/* 2.1 */
 
-nav > ol {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-around;
-  max-width: 10rem;
-}
-
-nav > ol > li {
-  display: flex;
-  text-align: center;
-  height: auto;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/* Lijn tussen menu items */
-nav > ol > li::after {
-  content: "";
-  width: 3rem;
-  border-bottom: var(--hoofdkleur2) 1px solid;
-}
-
-nav > ol > li:last-of-type::after {
-  border-bottom: none;
-}
-
-nav > ol > li:hover {
-  background-color: var(--hoofdkleur2);
-  color: var(--lettertype-kleur2);
-}
-
-/* Toon subkopjes bij hoveren */
-nav > ol > li:nth-of-type(3):hover .menuItems1 {
-  display: block;
-}
-
-nav > ol > li:nth-of-type(4):hover .menuItems2 {
-  display: block;
-}
-
-nav > ol > li:nth-of-type(5):hover .menuItems3 {
-  display: block;
-}
-
-nav > ol > li:nth-of-type(6):hover .menuItems4 {
-  display: block;
-}
-
-nav ol li a {
-  text-decoration: none;
-  color: inherit;
-}
-
-nav > ol > li > ol {
-  display: none;
-  position: absolute;
-  background-color: var(--hoofdkleur2);
-  color: var(--lettertype-kleur2);
-  height: fit-content;
-  width: 20rem;
-  text-align: left;
-  padding: 1rem;
-}
-
-/* Positie van de uitgeklapte subkopjes */
-nav > ol > li:nth-of-type(3) > ol {
-  top: 26.2vh;
-  right: 10rem;
-}
-
-nav > ol > li:nth-of-type(4) > ol {
-  top: 42.1vh;
-  right: 10rem;
-}
-
-nav > ol > li:nth-of-type(5) > ol {
-  top: 58vh;
-  right: 10rem;
-}
-
-nav > ol > li:nth-of-type(6) > ol {
-  top: 71.1vh;
-  right: 10rem;
-}
-
-nav > ol > li > ol > li {
-  padding: 0.4rem;
-}
-
-nav > ol > li > ol > li:hover {
-  color: var(--hoofdkleur1);
-}
-
-/***********/
-/* 2.1 - ba*/
-/***********/
 article:nth-of-type(4) > article:first-of-type > section {
   display: flex;
 }
@@ -248,13 +137,9 @@ article:nth-of-type(4)
   margin-right: 1rem;
 }
 
-/***********/
-/* 2.2 - bb*/
-/***********/
+/* 2.2 */
 
-/***********/
-/* 2.3 - bc*/
-/***********/
+/* 2.3 */
 article:nth-of-type(4) > article:nth-of-type(3) {
   display: flex;
   margin: 2em 0em;
@@ -278,9 +163,7 @@ article:nth-of-type(4) > article:nth-of-type(3) > aside > img {
   width: 2em;
 }
 
-/***********/
-/* 2.4 - bd*/
-/***********/
+/* 2.4 */
 article:nth-of-type(4) > article:nth-of-type(4) > section {
   display: flex;
   margin: 2em 0em;
@@ -295,9 +178,7 @@ article:nth-of-type(4) > article:nth-of-type(4) > section > aside > img {
   margin: 0em 3em;
 }
 
-/***********/
-/* 2.5 - be*/
-/***********/
+/* 2.5 */
 article:nth-of-type(4) > article:nth-of-type(5) {
   display: flex;
 }
@@ -306,9 +187,7 @@ article:nth-of-type(4) > article:nth-of-type(5) > aside > img {
   width: 40rem;
 }
 
-/***********/
-/* 2.6 - bf*/
-/***********/
+/* 2.6 */
 article:nth-of-type(4) > article:nth-of-type(6) {
   display: flex;
 }
@@ -317,9 +196,7 @@ article:nth-of-type(4) > article:nth-of-type(6) > video {
   width: 35rem;
 }
 
-/***********/
-/* 2.7 - bg*/
-/***********/
+/* 2.7 */
 article:nth-of-type(4) > article:nth-of-type(7) > section {
   position: relative;
   width: 100%;
@@ -331,34 +208,34 @@ article:nth-of-type(4) > article:nth-of-type(7) > section > img {
   margin: auto;
 }
 
-article:nth-of-type(4) > article:nth-of-type(7) > section > div {
+article:nth-of-type(4) > article:nth-of-type(7) > section > p:first-of-type {
   position: absolute;
   left: 23.5rem;
   right: 23.5rem;
   display: inline-block;
   margin: 0 20px 0 20px;
   color: var(--lettertype-kleur2);
-  background-color: var(--hoofdkleur2);
   z-index: 1;
   transform: translate(0, -32rem);
 }
 
-article:nth-of-type(4) > article:nth-of-type(7) > video {
+article:nth-of-type(4) > article:nth-of-type(7) > img {
   width: 50%;
+  float: right;
   max-width: 300px;
   margin-right: 7%;
 }
 
-/***********/
-/* 2.8 - bh*/
-/***********/
+/* 2.8 */
 article:nth-of-type(4) > article:nth-of-type(8) > img:first-of-type {
   width: 35%;
+  float: right;
   max-width: 300px;
 }
 
 article:nth-of-type(4) > article:nth-of-type(8) > img:nth-of-type(2) {
   width: 45%;
+  float: inline-start;
   margin-bottom: 1%;
   margin-top: 1%;
   margin-right: 2%;
