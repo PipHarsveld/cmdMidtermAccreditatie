@@ -275,7 +275,7 @@ article:nth-of-type(4) > article:nth-of-type(3) > div > section > button {
 }
 
 article:nth-of-type(4) > article:nth-of-type(3) > aside > img {
-  width: 12em;
+  width: 2em;
 }
 
 /***********/
