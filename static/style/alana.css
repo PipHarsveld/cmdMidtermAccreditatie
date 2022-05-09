@@ -1,0 +1,39 @@
+body {
+  margin: 1em;
+}
+
+section:first-of-type {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: var(--hoofdkleur1);
+
+  margin: 1em 0em;
+  border-width: 2.5px;
+  width: 20%;
+  height: 4 0%;
+}
+
+#bc {
+  display: flex;
+  margin: 2em 0em;
+}
+
+#bc img {
+  width: 12em;
+}
+
+#bd section {
+  display: flex;
+  margin: 2em 0em;
+}
+
+#bd aside {
+  display: flex;
+}
+#bd img {
+  width: 12em;
+  margin: 0em 3em;
+}
