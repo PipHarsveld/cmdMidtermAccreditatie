@@ -1,7 +1,0 @@
-article:nth-of-type(4) > section {
-  display: flex;
-}
-
-article:nth-of-type(4) > section > {
-  display: flex;
-}
