@@ -24,6 +24,11 @@
 /*******************/
 /* ALGEMENE OPMAAK */
 /*******************/
+main {
+  margin-right: calc(10rem + 2vw);
+  margin-left: 2vw;
+}
+
 h1,
 h2,
 h3,
@@ -38,17 +43,205 @@ h1 {
   font-size: 2rem;
 }
 
-img {
-  width: 2rem;
-  height: auto;
+h2 {
+  font-size: 5.63rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
-ul li {
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  max-width: 60vw;
+  margin-bottom: 1rem;
+}
+
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-main {
-  margin-right: 10rem;
+/* 2.1 */
+
+article:nth-of-type(4) > article:first-of-type > section {
+  display: flex;
+}
+
+article:nth-of-type(4) > article:first-of-type > section:first-of-type {
+  margin-bottom: 2rem;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:first-of-type
+  > aside
+  > img {
+  width: 22rem;
+}
+
+article:nth-of-type(4) > article:first-of-type > section:nth-of-type(2) > p {
+  max-width: 35vw;
+}
+
+article:nth-of-type(4) > article:first-of-type > section:nth-of-type(2) > ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  margin-left: 5rem;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:nth-of-type(2)
+  > ol
+  > li {
+  display: flex;
+  align-items: flex-start;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:nth-of-type(2)
+  > ol
+  > li:first-of-type {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(2) {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(3) {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:nth-of-type(2)
+  > ol
+  > li
+  > img {
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+
+/* 2.2 */
+
+/* 2.3 */
+article:nth-of-type(4) > article:nth-of-type(3) {
+  display: flex;
+  margin: 2em 0em;
+}
+
+article:nth-of-type(4) > article:nth-of-type(3) > div > section {
+  display: flex;
+  justify-content: space-around;
+}
+
+article:nth-of-type(4) > article:nth-of-type(3) > div > section > button {
+  background-color: var(--hoofdkleur1);
+
+  margin: 1em 0em;
+  border-width: 2.5px;
+  width: 20%;
+  height: 4em;
+}
+
+article:nth-of-type(4) > article:nth-of-type(3) > aside > img {
+  width: 12em;
+}
+
+/* 2.4 */
+article:nth-of-type(4) > article:nth-of-type(4) > section {
+  display: flex;
+  margin: 2em 0em;
+}
+
+article:nth-of-type(4) > article:nth-of-type(4) > section > aside {
+  display: flex;
+}
+
+article:nth-of-type(4) > article:nth-of-type(4) > section > aside > img {
+  width: 12em;
+  margin: 0em 3em;
+}
+
+/* 2.5 */
+article:nth-of-type(4) > article:nth-of-type(5) {
+  display: flex;
+}
+
+article:nth-of-type(4) > article:nth-of-type(5) > aside > img {
+  width: 40rem;
+}
+
+/* 2.6 */
+article:nth-of-type(4) > article:nth-of-type(6) {
+  display: flex;
+}
+
+article:nth-of-type(4) > article:nth-of-type(6) > video {
+  width: 35rem;
+}
+
+/* 2.7 */
+article:nth-of-type(4) > article:nth-of-type(7) > section {
+  position: relative;
+  width: 100%;
+}
+
+article:nth-of-type(4) > article:nth-of-type(7) > section > img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+article:nth-of-type(4) > article:nth-of-type(7) > section > p:first-of-type {
+  position: absolute;
+  top: -0.5rem;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  color: hotpink;
+  z-index: 1;
+}
+
+article:nth-of-type(4) > article:nth-of-type(7) > img {
+  width: 50%;
+  float: right;
+  max-width: 300px;
+  margin-right: 7%;
+}
+
+/* 2.8 */
+article:nth-of-type(4) > article:nth-of-type(8) > img:first-of-type {
+  width: 35%;
+  float: right;
+  max-width: 300px;
+}
+
+article:nth-of-type(4) > article:nth-of-type(8) > img:nth-of-type(2) {
+  width: 45%;
+  float: inline-start;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-right: 2%;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+article:nth-of-type(4) > article:nth-of-type(8) > img {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
 }
