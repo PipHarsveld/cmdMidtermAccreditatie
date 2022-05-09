@@ -210,11 +210,13 @@ article:nth-of-type(4) > article:nth-of-type(7) > section > img {
 
 article:nth-of-type(4) > article:nth-of-type(7) > section > p:first-of-type {
   position: absolute;
-  top: -0.5rem;
+  left: 23.5rem;
+  right: 23.5rem;
   display: inline-block;
   margin: 0 20px 0 20px;
-  color: hotpink;
+  color: var(--lettertype-kleur2);
   z-index: 1;
+  transform: translate(0, -32rem);
 }
 
 article:nth-of-type(4) > article:nth-of-type(7) > img {
