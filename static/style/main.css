@@ -29,6 +29,11 @@ main {
   margin-left: 2vw;
 }
 
+footer {
+  margin-right: calc(10rem + 2vw);
+  margin-left: 2vw;
+}
+
 h1,
 h2,
 h3,
@@ -359,4 +364,5 @@ article:nth-of-type(4) > article:nth-of-type(8) > img {
   width: 20%;
   display: flex;
   justify-content: space-around;
+  color: red;
 }
