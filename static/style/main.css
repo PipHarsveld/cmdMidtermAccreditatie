@@ -49,9 +49,12 @@ h1 {
 }
 
 h2 {
-  font-size: 5.63rem;
-  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
   margin-top: 1rem;
+  color: var(--hoofdkleur3);
+  background-color: var(--hoofdkleur2);
+  padding: 1rem;
 }
 
 h3 {
