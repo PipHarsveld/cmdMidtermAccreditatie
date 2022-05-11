@@ -371,9 +371,21 @@ article:nth-of-type(4) > article:nth-of-type(4) > section > aside {
   display: flex;
 }
 
-article:nth-of-type(4) > article:nth-of-type(4) > section > aside > img {
+article:nth-of-type(4)
+  > article:nth-of-type(4)
+  > section:first-of-type
+  > aside
+  > img {
   width: 12em;
   margin: 0em 3em;
+}
+
+article:nth-of-type(4)
+  > article:nth-of-type(4)
+  > section:nth-of-type(2)
+  > aside
+  > img {
+  width: 25em;
 }
 
 /*******/
