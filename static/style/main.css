@@ -147,7 +147,6 @@ nav > ol > li > ol {
   position: absolute;
   background-color: var(--hoofdkleur2);
   color: var(--lettertype-kleur2);
-  height: fit-content;
   width: 20rem;
   text-align: left;
   padding: 1rem;
@@ -401,6 +400,14 @@ article:nth-of-type(4) > article:nth-of-type(7) > section > img {
   width: 60%;
   display: block;
   margin: auto;
+}
+
+article:nth-of-type(4) > article:nth-of-type(7) > div > video {
+  width: 35rem;
+}
+
+article:nth-of-type(4) > article:nth-of-type(7) > div {
+  display: flex;
 }
 
 article:nth-of-type(4) > article:nth-of-type(7) > section > p:first-of-type {
