@@ -177,12 +177,34 @@ nav > ol > li > ol > li:hover {
   color: var(--hoofdkleur1);
 }
 
+/*************/
+/* Voorwoord */
+/*************/
+article:first-of-type {
+  margin-right: calc(10rem + 2vw);
+  margin-left: 2vw;
+}
+
+/*************/
+/* Inleiding */
+/*************/
+article:nth-of-type(2) {
+  margin-right: calc(10rem + 2vw);
+  margin-left: 2vw;
+}
+
+/*****/
+/* 2 */
+/*****/
+article:nth-of-type(4) > div {
+  margin-right: calc(10rem + 2vw);
+  margin-left: 2vw;
+}
+
 /*******/
 /* 2.1 */
 /*******/
 article:nth-of-type(4) > article:first-of-type > section {
-  margin-right: calc(10rem + 2vw);
-  margin-left: 2vw;
   display: flex;
 }
 
