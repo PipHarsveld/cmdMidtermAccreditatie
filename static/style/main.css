@@ -332,10 +332,7 @@ article:nth-of-type(4) > article:nth-of-type(2) {
 article:nth-of-type(4) > article:nth-of-type(3) {
   margin-right: calc(10rem + 2vw);
   margin-left: 2vw;
-}
-article:nth-of-type(4) > article:nth-of-type(3) {
   display: flex;
-  margin: 2em 0em;
 }
 
 article:nth-of-type(4) > article:nth-of-type(3) > div > section {
