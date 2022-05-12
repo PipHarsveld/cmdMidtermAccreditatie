@@ -405,7 +405,8 @@ article:nth-of-type(4)
   > section:nth-of-type(2)
   > aside
   > img {
-  width: 25em;
+  width: 15em;
+  margin-right: 3em;
 }
 
 /*******/
