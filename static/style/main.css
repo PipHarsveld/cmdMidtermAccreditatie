@@ -50,6 +50,7 @@ h2 {
   color: var(--hoofdkleur3);
   background-color: var(--hoofdkleur2);
   padding: 1rem;
+  width: fit-content;
 }
 
 h3 {
@@ -346,6 +347,28 @@ article:nth-of-type(4) > article:nth-of-type(2) {
   margin-left: 2vw;
 }
 
+article:nth-of-type(4) > article:nth-of-type(2) > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+article:nth-of-type(4) > article:nth-of-type(2) > ul > li {
+  max-width: 30rem;
+  margin-bottom: 2rem;
+}
+
+article:nth-of-type(4) > article:nth-of-type(2) > ul > li:first-of-type {
+  align-self: flex-start;
+}
+
+article:nth-of-type(4) > article:nth-of-type(2) > ul > li:nth-of-type(2) {
+  align-self: center;
+}
+
+article:nth-of-type(4) > article:nth-of-type(2) > ul > li:last-of-type {
+  align-self: flex-end;
+}
+
 /*******/
 /* 2.3 */
 /*******/
@@ -381,15 +404,45 @@ article:nth-of-type(4) > article:nth-of-type(4) {
   margin-right: calc(10rem + 2vw);
   margin-left: 2vw;
 }
+/*
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
 
-article:nth-of-type(4) > article:nth-of-type(4) > section {
+article:nth-of-type(4)
+  > article:nth-of-type(4)
+
+  > ol
+  > li:first-of-type {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(2) {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+article:nth-of-type(4)
+  > article:first-of-type
+  > section:nth-of-type(2)
+  > ol
+  > li:nth-of-type(3) {
+  grid-area: 3 / 1 / 4 / 2;
+} */
+
+/* article:nth-of-type(4) > article:nth-of-type(4) > section {
   display: flex;
   margin: 2em 0em;
 }
 
 article:nth-of-type(4) > article:nth-of-type(4) > section > aside {
   display: flex;
-}
+} */
 
 article:nth-of-type(4)
   > article:nth-of-type(4)
@@ -490,6 +543,7 @@ article:nth-of-type(4) > article:nth-of-type(8) {
   margin-left: 2vw;
 }
 
+/* img tabel */
 article:nth-of-type(4) > article:nth-of-type(8) > img:first-of-type {
   margin-left: 2rem;
   width: 35%;
@@ -497,6 +551,7 @@ article:nth-of-type(4) > article:nth-of-type(8) > img:first-of-type {
   max-width: 300px;
 }
 
+/* img studentenenquete */
 article:nth-of-type(4) > article:nth-of-type(8) > img:nth-of-type(2) {
   width: 45%;
   float: inline-start;
@@ -506,21 +561,21 @@ article:nth-of-type(4) > article:nth-of-type(8) > img:nth-of-type(2) {
   border: 1px solid rgb(0, 0, 0);
 }
 
-article:nth-of-type(4) > article:nth-of-type(8) > img {
-  width: 20%;
+/* 3 afbeeldingen werk, mens, school */
+article:nth-of-type(4) > article:nth-of-type(8) > section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-article:nth-of-type(4) > article:nth-of-type(9) {
-  background-color: var(--hoofdkleur2);
-  color: var(--hoofdkleur3);
+article:nth-of-type(4) > article:nth-of-type(8) > section > img {
+  width: 12rem;
 }
 
 /*******/
 /* 2.9 */
 /*******/
-
 article:nth-of-type(4) > article:nth-of-type(9) {
+  background-color: var(--hoofdkleur2);
+  color: var(--hoofdkleur3);
   padding: 2rem;
 }
