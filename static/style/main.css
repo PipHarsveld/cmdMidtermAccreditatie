@@ -229,51 +229,59 @@ article:nth-of-type(4) > article:first-of-type > section:last-of-type {
 }
 
 /* Positie afbeeldingen na scrollen */
-/* article:nth-of-type(4) > article:first-of-type > aside > img:first-of-type {
-  position: relative;
+article:nth-of-type(4) > article:first-of-type > aside > img:first-of-type {
+  /* position: relative;
   top: -20rem;
-  left: 17.2rem;
-} */
+  left: 17.2rem; */
+  transform: scale(0.7);
+}
 
-/* article:nth-of-type(4) > article:first-of-type > aside > img:first-of-type {
-  position: relative;
+article:nth-of-type(4) > article:first-of-type > aside > img:first-of-type {
+  /* position: relative;
   top: -20rem;
-  left: 17.2rem;
+  left: 17.2rem; */
+  transform: scale(0.7);
 }
 
 article:nth-of-type(4) > article:first-of-type > aside > img:nth-of-type(2) {
-  position: relative;
+  /* position: relative;
   top: -20rem;
-  left: 11.5rem;
+  left: 11.5rem; */
+  transform: scale(0.7);
 }
 
 article:nth-of-type(4) > article:first-of-type > aside > img:nth-of-type(3) {
-  position: relative;
+  /* position: relative;
   top: -25rem;
-  left: -15.7rem;
+  left: -15.7rem; */
+  transform: scale(0.7);
 }
 
 article:nth-of-type(4) > article:first-of-type > aside > img:nth-of-type(4) {
-  position: relative;
+  /* position: relative;
   top: -20rem;
-  left: 11.6rem;
+  left: 11.6rem; */
+  transform: scale(0.7);
 }
 
 article:nth-of-type(4) > article:first-of-type > aside > img:nth-of-type(5) {
-  position: relative;
+  /* position: relative;
   top: -20rem;
-  left: 8.2rem;
+  left: 8.2rem; */
+  transform: scale(0.7);
 }
 
 article:nth-of-type(4) > article:first-of-type > aside > img:nth-of-type(6) {
-  position: relative;
-  top: -60rem;
+  /* position: relative;
+  top: -60rem; */
+  transform: scale(0.7);
 }
 
 article:nth-of-type(4) > article:first-of-type > aside > img:last-of-type {
-  position: relative;
-  top: -65rem;
-} */
+  /* position: relative;
+  top: -65rem; */
+  transform: scale(0.7);
+}
 
 /* Stickeynotes met nummers */
 article:nth-of-type(4) > article:first-of-type > ol {
@@ -302,7 +310,7 @@ article:nth-of-type(4) > article:first-of-type > ol > li:nth-of-type(3) {
 }
 
 article:nth-of-type(4) > article:first-of-type > ol > li > img {
-  width: 3.5rem;
+  width: 2.8rem;
   margin-right: 1rem;
 }
 
