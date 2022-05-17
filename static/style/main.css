@@ -210,6 +210,9 @@ article:nth-of-type(4) > div {
 /*******/
 article:nth-of-type(4) > article:first-of-type {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
 }
 
 article:nth-of-type(4) > article:first-of-type > aside {
@@ -225,11 +228,13 @@ article:nth-of-type(4) > article:first-of-type > section:last-of-type {
   grid-area: 2/1/3/2;
 }
 
-/* article:nth-of-type(4) > article:first-of-type > aside {
-  max-width: 38rem;
+/* Positie afbeeldingen na scrollen */
+/* article:nth-of-type(4) > article:first-of-type > aside > img:first-of-type {
+  position: relative;
+  top: -20rem;
+  left: 17.2rem;
 } */
 
-/* Positie afbeeldingen na scrollen */
 /* article:nth-of-type(4) > article:first-of-type > aside > img:first-of-type {
   position: relative;
   top: -20rem;
@@ -276,7 +281,6 @@ article:nth-of-type(4) > article:first-of-type > ol {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 1.5rem;
-  margin-left: 5rem;
   grid-area: 2/2/3/3;
 }
 
