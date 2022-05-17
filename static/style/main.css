@@ -201,7 +201,10 @@ article:nth-of-type(2) {
 /* 1 */
 /*****/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 87659961ce792a0fa8031f7cc4c3b376607f91c8
 article:nth-of-type(3) > article:first-of-type {
   display: flex;
 }
@@ -216,8 +219,11 @@ article:nth-of-type(3) > article:first-of-type > aside {
   justify-content: flex-end;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 08ea1c3860f4f0c0c4643e302836f1bc023f019f
+=======
+>>>>>>> 87659961ce792a0fa8031f7cc4c3b376607f91c8
 article:nth-of-type(3) > article:first-of-type > aside > img {
   margin-right: 2rem;
   width: 30em;
