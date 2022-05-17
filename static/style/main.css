@@ -267,6 +267,13 @@ article:nth-of-type(3)
   padding: 1rem;
 }
 
+article:nth-of-type(3) > article:nth-of-type(3) > {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 2rem;
+}
+
 /*****/
 /* 2 */
 /*****/
