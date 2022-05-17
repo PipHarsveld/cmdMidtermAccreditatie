@@ -200,9 +200,23 @@ article:nth-of-type(2) {
 /*****/
 /* 1 */
 /*****/
+article:nth-of-type(3) > article:first-of-type {
+  display: flex;
+}
+
+article:nth-of-type(3) > article:first-of-type > section {
+  justify-content: flex-start;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+}
+
+article:nth-of-type(3) > article:first-of-type > aside {
+  justify-content: flex-end;
+}
+
 article:nth-of-type(3) > article:first-of-type > aside > img {
   margin-right: 2rem;
-  width: 12em;
+  width: 30em;
 }
 
 /*****/
