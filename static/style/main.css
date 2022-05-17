@@ -50,6 +50,7 @@ h2 {
   color: var(--hoofdkleur3);
   background-color: var(--hoofdkleur2);
   padding: 1rem;
+  width: fit-content;
 }
 
 h3 {
