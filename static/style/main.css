@@ -211,7 +211,7 @@ article:nth-of-type(4) > div {
 article:nth-of-type(4) > article:first-of-type {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
   grid-gap: 2rem;
 }
 
@@ -312,6 +312,10 @@ article:nth-of-type(4) > article:first-of-type > ol > li:nth-of-type(3) {
 article:nth-of-type(4) > article:first-of-type > ol > li > img {
   width: 2.8rem;
   margin-right: 1rem;
+}
+
+article:nth-of-type(4) > article:first-of-type > ol > li > p {
+  margin-bottom: 0;
 }
 
 /*******/
