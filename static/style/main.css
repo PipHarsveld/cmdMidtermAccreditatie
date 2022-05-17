@@ -72,6 +72,15 @@ li {
   padding: 0;
 }
 
+button {
+  background-color: var(--hoofdkleur1);
+  margin: 1em 0em;
+  border-width: 2.5px;
+  width: 20%;
+  height: 4em;
+  font-size: 1rem;
+}
+
 /*******/
 /* NAV */
 /*******/
@@ -201,6 +210,9 @@ article:nth-of-type(2) {
 /* 1 */
 /*****/
 
+/*******/
+/* 1.1 */
+/*******/
 article:nth-of-type(3) > article:first-of-type > div {
   display: flex;
 }
@@ -220,6 +232,9 @@ article:nth-of-type(3) > article:first-of-type > div > aside > img {
   width: 20em;
 }
 
+/*******/
+/* 1.2 */
+/*******/
 article:nth-of-type(3) > article:nth-of-type(2) > div {
   display: flex;
   justify-content: space-between;
@@ -456,14 +471,6 @@ article:nth-of-type(4) > article:nth-of-type(3) > div > section {
   justify-content: space-around;
 }
 
-article:nth-of-type(4) > article:nth-of-type(3) > div > section > button {
-  background-color: var(--hoofdkleur1);
-  margin: 1em 0em;
-  border-width: 2.5px;
-  width: 20%;
-  height: 4em;
-}
-
 article:nth-of-type(4) > article:nth-of-type(3) > aside > img {
   margin-right: 2rem;
   width: 12em;
@@ -476,8 +483,8 @@ article:nth-of-type(4) > article:nth-of-type(4) {
   margin-right: calc(10rem + 2vw);
   margin-left: 2vw;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
+  grid-template-rows: 1fr auto;
   grid-gap: 2rem;
 }
 
@@ -497,14 +504,22 @@ article:nth-of-type(4) > article:nth-of-type(4) > article:nth-of-type(2) {
   grid-area: 2 / 2 / 3 / 3;
 }
 
+article:nth-of-type(4) > article:nth-of-type(4) > aside:first-of-type {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 article:nth-of-type(4) > article:nth-of-type(4) > aside:first-of-type > img {
-  width: 12em;
-  margin: 0em 0.5em;
+  width: 10em;
+}
+
+article:nth-of-type(4) > article:nth-of-type(4) > aside:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
 }
 
 article:nth-of-type(4) > article:nth-of-type(4) > aside:nth-of-type(2) > img {
-  width: 15em;
-  margin-right: 3em;
+  width: 14rem;
 }
 
 /*******/
@@ -527,12 +542,21 @@ article:nth-of-type(4) > article:nth-of-type(5) > aside > img {
 article:nth-of-type(4) > article:nth-of-type(6) {
   margin-right: calc(10rem + 2vw);
   margin-left: 2vw;
+}
+
+article:nth-of-type(4) > article:nth-of-type(6) > div > video {
+  margin-right: 2rem;
+  width: 35rem;
+}
+
+article:nth-of-type(4) > article:nth-of-type(6) > div {
   display: flex;
 }
 
-article:nth-of-type(4) > article:nth-of-type(6) > video {
-  margin-right: 2rem;
-  width: 35rem;
+article:nth-of-type(4) > article:nth-of-type(6) > section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
 }
 
 /*******/
