@@ -359,12 +359,10 @@ article:nth-of-type(3) > article:nth-of-type(4) > article:nth-of-type(2) {
 
 article:nth-of-type(3) > article:nth-of-type(4) > aside:first-of-type > img {
   width: 12rem;
-  margin: 0rem 0.5rem;
 }
 
 article:nth-of-type(3) > article:nth-of-type(4) > aside:nth-of-type(2) > img {
   width: 12rem;
-  margin-right: 3rem;
 }
 
 /*******/
