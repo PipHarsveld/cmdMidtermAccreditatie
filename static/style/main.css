@@ -97,6 +97,7 @@ nav {
   background-color: var(--hoofdkleur1);
   top: 0;
   margin-left: 2rem;
+  z-index: 2;
 }
 
 nav > ol {
@@ -221,6 +222,10 @@ article:nth-of-type(3) > div {
 /*******/
 /* 1.1 */
 /*******/
+article:nth-of-type(3) > article:first-of-type {
+  margin-right: 10rem;
+}
+
 article:nth-of-type(3) > article:first-of-type > div {
   display: flex;
   justify-content: space-between;
@@ -232,6 +237,14 @@ article:nth-of-type(3) > article:first-of-type > div > section {
 
 article:nth-of-type(3) > article:first-of-type > div > aside > img {
   width: 20em;
+  transform: translate(30rem);
+  z-index: -1;
+  opacity: 0;
+  /* margin-right: 10rem; */
+}
+
+article:nth-of-type(3) > article:first-of-type > div > aside {
+  overflow: hidden;
 }
 
 /*******/
@@ -559,6 +572,10 @@ article:nth-of-type(4) > article:nth-of-type(3) {
   margin-right: calc(10rem + 2vw);
   margin-left: 2vw;
   display: flex;
+}
+
+article:nth-of-type(4) > article:nth-of-type(3) > div {
+  margin-left: 0rem;
 }
 
 article:nth-of-type(4) > article:nth-of-type(3) > div > section {

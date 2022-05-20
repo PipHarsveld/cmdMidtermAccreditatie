@@ -1,4 +1,10 @@
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".nina", {
+  x: -20,
+  duration: 3,
+  opacity: 1,
+});
 
 // gsap.to(
 //   "article:nth-of-type(4) > article:first-of-type > aside > img:first-of-type",
