@@ -26,6 +26,10 @@
 /*******************/
 /* ALGEMENE OPMAAK */
 /*******************/
+body {
+  overflow-x: hidden;
+}
+
 footer {
   margin-right: calc(10rem + 2vw);
   margin-left: 2vw;
@@ -240,11 +244,6 @@ article:nth-of-type(3) > article:first-of-type > div > aside > img {
   transform: translate(30rem);
   z-index: -1;
   opacity: 0;
-  /* margin-right: 10rem; */
-}
-
-article:nth-of-type(3) > article:first-of-type > div > aside {
-  overflow: hidden;
 }
 
 /*******/
@@ -578,14 +577,94 @@ article:nth-of-type(4) > article:nth-of-type(3) > div {
   margin-left: 0rem;
 }
 
-article:nth-of-type(4) > article:nth-of-type(3) > div > section {
-  display: flex;
-  justify-content: space-between;
+article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.5rem;
+}
+
+article:nth-of-type(4)
+  > article:nth-of-type(3)
+  > div
+  > section
+  > ul
+  > li
+  > button {
+  width: 15rem;
+}
+
+article:nth-of-type(4)
+  > article:nth-of-type(3)
+  > div
+  > section
+  > ul
+  > li
+  > article {
+  background-color: var(--hoofdkleur1);
+  display: none;
+  position: absolute;
+  width: 62rem;
+  height: 21rem;
+  margin-left: 2vw;
+  top: 753vh;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 3rem;
+  z-index: 1;
+}
+
+article:nth-of-type(4)
+  > article:nth-of-type(3)
+  > div
+  > section
+  > ul
+  > li
+  > article
+  > h4 {
+  margin-top: 0.7rem;
+}
+
+article:nth-of-type(4)
+  > article:nth-of-type(3)
+  > div
+  > section
+  > ul
+  > li
+  > article
+  > p {
+  text-align: left;
+  max-width: 45rem;
+  margin: 0;
+}
+
+article:nth-of-type(4)
+  > article:nth-of-type(3)
+  > div
+  > section
+  > ul
+  > li
+  > article
+  > button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.8rem;
 }
 
 article:nth-of-type(4) > article:nth-of-type(3) > aside > img {
   margin-right: 2rem;
   width: 12em;
+}
+
+.toonOverlay {
+  display: block !important;
 }
 
 /*******/
