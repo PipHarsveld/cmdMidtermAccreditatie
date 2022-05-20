@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".nina", {
+gsap.to("article:nth-of-type(3) > article:nth-of-type(1) > div > aside > img", {
   x: -20,
   duration: 3,
   opacity: 1,
