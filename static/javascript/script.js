@@ -123,10 +123,10 @@ const projecten = document.querySelector(
   "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:first-of-type > button"
 );
 const projectenOverlay = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:first-of-type > article"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:first-of-type > div"
 );
 const projectenButton = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:first-of-type > article > button"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:first-of-type > div > article > button"
 );
 
 const projectenInfo = () => {
@@ -144,10 +144,10 @@ const stages = document.querySelector(
   "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(2) > button"
 );
 const stagesOverlay = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(2) > article"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(2) > div"
 );
 const stagesButton = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(2) > article > button"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(2) > div > article > button"
 );
 
 const stagesInfo = () => {
@@ -165,10 +165,10 @@ const agency = document.querySelector(
   "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(3) > button"
 );
 const agencyOverlay = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(3) > article"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(3) > div"
 );
 const agencyButton = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(3) > article > button"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(3) > div > article > button"
 );
 
 const agencyInfo = () => {
@@ -186,10 +186,10 @@ const gastcolleges = document.querySelector(
   "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(4) > button"
 );
 const gastcollegesOverlay = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(4) > article"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(4) > div"
 );
 const gastcollegesButton = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(4) > article > button"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(4) > div > article > button"
 );
 
 const gastcollegesInfo = () => {
@@ -207,10 +207,10 @@ const adviesraad = document.querySelector(
   "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(5) > button"
 );
 const adviesraadOverlay = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(5) > article"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(5) > div"
 );
 const adviesraadButton = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(5) > article > button"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(5) > div > article > button"
 );
 
 const adviesraadInfo = () => {
@@ -228,10 +228,10 @@ const pie = document.querySelector(
   "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(6) > button"
 );
 const pieOverlay = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(6) > article"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(6) > div"
 );
 const pieButton = document.querySelector(
-  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(6) > article > button"
+  "article:nth-of-type(4) > article:nth-of-type(3) > div > section > ul > li:nth-of-type(6) > div > article > button"
 );
 
 const pieInfo = () => {
