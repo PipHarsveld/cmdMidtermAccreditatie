@@ -128,6 +128,8 @@ nav > ol > li::after {
   content: "";
   width: 3rem;
   border-bottom: var(--hoofdkleur2) 1px solid;
+  position: relative;
+  bottom: -2.35rem;
 }
 
 nav > ol > li:last-of-type::after {
@@ -886,6 +888,7 @@ article:nth-of-type(4) > article:nth-of-type(7) > section > div > h4 {
 
 article:nth-of-type(4) > article:nth-of-type(7) > div > video {
   width: 35rem;
+  margin-left: 2rem;
 }
 
 article:nth-of-type(4) > article:nth-of-type(7) > div {
@@ -1055,7 +1058,7 @@ article:nth-of-type(5) > article:nth-of-type(5) {
 /*******/
 /* 4.0 */
 /*******/
-article:nth-of-type(6) > div {
+main > article:nth-of-type(6) > div {
   margin-right: calc(10rem + 2vw);
   margin-left: 2vw;
 }
